@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply min-h-screen bg-background text-foreground antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(30, 58, 95, 0.35), transparent),
+    radial-gradient(circle at 100% 0%, rgba(201, 168, 76, 0.06), transparent 40%);
+}
+
+::selection {
+  @apply bg-gold/30 text-foreground;
+}

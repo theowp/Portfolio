@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Théo ALASSEUR-DEJOIE — Portfolio",
+    "description": "Étudiant en Management des Risques — MS IMR KEDGE × MSc AI Applied to Business — Eugenia School. Bordeaux."
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "parcours": "Parcours",
+    "competences": "Compétences",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "tagline": "Management des risques & data / IA."
+  },
+  "home": {
+    "role": "Étudiant en Management des Risques — Alternance Sept. 2026 | Bordeaux",
+    "degreeLine": "MS IMR KEDGE Business School × MSc AI Applied to Business — Eugenia School",
+    "rhythm": "Rythme alternance : 3 semaines entreprise / 1 semaine école",
+    "location": "Bordeaux (mobilité)",
+    "ctaProjects": "Voir mes projets",
+    "ctaContact": "Me contacter",
+    "kicker": "Management des risques × Data / IA",
+    "typewriterPhrases": [
+      "Manager des Risques.",
+      "Data Analyst.",
+      "Sapeur-Pompier.",
+      "Futur alternant à Bordeaux."
+    ],
+    "stats": {
+      "experiences": "Expériences",
+      "formations": "Formations",
+      "waterpolo": "Ans de water-polo",
+      "sp": "Sapeur-pompier volontaire",
+      "spActive": "Actif"
+    },
+    "whyTitle": "Pourquoi moi ?",
+    "pillars": [
+      {
+        "title": "Analyse du risque",
+        "subtitle": "Terrain + académique",
+        "body": "Expérience opérationnelle (SDIS) et parcours académique pour structurer l'évaluation et la priorisation des risques."
+      },
+      {
+        "title": "Data & IA au service du Risk",
+        "subtitle": "Mesure & pilotage",
+        "body": "Compétences en data engineering, BI et IA pour renforcer le pilotage par la donnée et l'aide à la décision."
+      },
+      {
+        "title": "Leadership éprouvé",
+        "subtitle": "Équipe & pression",
+        "body": "Responsabilités associatives, sport de haut niveau et missions d'urgence pour coordonner et décider sous contrainte."
+      }
+    ]
+  },
+  "projectsPage": {
+    "title": "Projets",
+    "intro": "Quatre réalisations — data, BI, full-stack et IA — au service de la clarté décisionnelle et du pilotage des risques.",
+    "viewDeck": "Voir la présentation",
+    "keyFigures": "Chiffres clés"
+  },
+  "projects": {
+    "interpol": {
+      "title": "Interpol Data Scraper",
+      "category": "Data Engineering",
+      "description": "Système de scraping automatisé des données publiques Interpol. Extraction et structuration des fiches de personnes recherchées, stockage en base de données et visualisation interactive des données collectées.",
+      "metrics": [
+        "1 000+ fiches extraites",
+        "194 pays",
+        "Données structurées en base SQL"
+      ]
+    },
+    "carbonBalance": {
+      "title": "Carbon Balance",
+      "category": "Full-Stack Application",
+      "description": "Développement d'une application full-stack de comptabilité carbone. Architecture micro-services traitant les scopes 1, 2 et 3. Pipeline de nettoyage de données pour uniformiser les entrées énergétiques et logistiques.",
+      "metrics": [
+        "-70 % temps d'analyse vs Excel traditionnel",
+        "Scopes 1, 2 & 3",
+        "Dashboard temps réel"
+      ]
+    },
+    "brandsistersBi": {
+      "title": "Solutions d'aide à la décision — Brandsisters",
+      "category": "Business Intelligence",
+      "description": "Déploiement de solutions BI pour Zapa, Tara-Jarmon et Vanessa Bruno. Recueil des besoins métiers et traduction en spécifications techniques. Supervision de l'intégrité des flux de données et mise en place de KPIs stratégiques.",
+      "metrics": ["3 marques", "KPIs stratégiques opérationnels"]
+    },
+    "dustAgent": {
+      "title": "Agent IA — DUST",
+      "category": "Intelligence Artificielle",
+      "description": "Conception et déploiement d'un agent IA conversationnel avec la plateforme DUST. Intégration de sources de données multiples, création de workflows automatisés et fine-tuning des prompts pour des réponses contextualisées.",
+      "metrics": ["Assistant IA opérationnel 24/7"]
+    }
+  },
+  "parcoursPage": {
+    "title": "Parcours",
+    "education": "Formations",
+    "experience": "Expériences professionnelles"
+  },
+  "education": {
+    "kedge": {
+      "school": "KEDGE Business School",
+      "degree": "MS IMR — Manager en Gestion Globale des Risques (Sept. 2026 →)",
+      "courses": "Cours : Cartographie des risques, Financement du risque, Gestion de crise, Management / Leadership"
+    },
+    "eugenia": {
+      "school": "Eugenia School",
+      "degree": "MSc AI Applied to Business (2025 → aujourd'hui)",
+      "courses": "Cours : Business Analytics, Data Visualisation, CRM, Nocode, Marketing analytique",
+      "tools": "Outils : Python, SQL, Power BI, Hubspot, Dataiku, ChatGPT, Google Analytics, Airtable, Notion, Zapier"
+    },
+    "dauphine": {
+      "school": "Université Paris-Dauphine",
+      "degree": "Licence Sciences des Organisations (2021-2025)",
+      "courses": "Analyse stratégique, macroéconomie, expression orale, outils quantitatifs"
+    },
+    "lycee": {
+      "school": "Lycée Descartes — Antony",
+      "degree": "Baccalauréat Scientifique, Mention Bien (2018-2021)",
+      "courses": "Spécialités : Mathématiques, Physique-Chimie, Sciences de l'ingénieur"
+    }
+  },
+  "experience": {
+    "brandsisters": {
+      "company": "Brandsisters",
+      "role": "Chef de Projets Data (Sept. 2025 – Sept. 2026)",
+      "bullets": [
+        "Recueil des besoins métiers et traduction en spécifications techniques",
+        "Supervision de l'intégrité des flux de données et mise en place de KPIs stratégiques",
+        "Création de sites internet, Agent IA et Chatbot (VibeCoding)"
+      ]
+    },
+    "sdis": {
+      "company": "SDIS 06",
+      "role": "Nageur-Sauveteur / Sapeur-Pompier Volontaire (Sept. 2021 – aujourd'hui)",
+      "bullets": [
+        "Évaluation et priorisation des risques en conditions réelles",
+        "Identification rapide des menaces, décision sous incertitude, gestion de l'urgence",
+        "Communication du risque : reporting de mission, coordination interservices"
+      ]
+    },
+    "louisette": {
+      "company": "Louisette",
+      "role": "Responsable Barman / Serveur (Juin 2022 – Nov. 2023)",
+      "bullets": ["Logistique, gestion de stocks, relation client"]
+    },
+    "doa": {
+      "company": "Dauphine On Air",
+      "role": "Responsable Événements (Sept. 2021 – aujourd'hui)",
+      "bullets": [
+        "Suivi de projets, coordination d'équipe, analyse de résultats",
+        "Collaboration avec partenaires externes (sponsors, prestataires)"
+      ]
+    }
+  },
+  "competencesPage": {
+    "title": "Compétences",
+    "intro": "Un socle data / BI / IA au service du pilotage et du management des risques.",
+    "skillBarCaption": "Barres à titre purement illustratif — mise en page, pas une notation.",
+    "skillBarLevels": {
+      "dataBi": 92,
+      "analytics": 86,
+      "nocode": 84,
+      "devIa": 80,
+      "soft": 90
+    },
+    "groups": {
+      "dataBi": "Data & BI",
+      "analytics": "Analytics",
+      "nocode": "No-Code & Automation",
+      "devIa": "Dev & IA",
+      "soft": "Soft skills"
+    },
+    "items": {
+      "dataBi": ["Python", "SQL", "Power BI", "Excel", "Dataiku"],
+      "analytics": [
+        "Google Analytics",
+        "Business Analytics",
+        "Data Visualisation"
+      ],
+      "nocode": ["Airtable", "Notion", "Zapier", "Hubspot"],
+      "devIa": ["Cursor", "ChatGPT", "Next.js", "Tailwind CSS"],
+      "soft": [
+        "Leadership",
+        "Gestion de crise",
+        "Communication",
+        "Coordination d'équipe",
+        "Décision sous pression"
+      ]
+    },
+    "certificationsTitle": "Certifications",
+    "certifications": [
+      {
+        "name": "BNSSA — Brevet National de Sécurité et de Sauvetage Aquatique",
+        "year": "2021"
+      },
+      {
+        "name": "PSE1 — Premiers Secours en Équipe niveau 1",
+        "year": "2021"
+      },
+      {
+        "name": "PSE2 — Premiers Secours en Équipe niveau 2",
+        "year": "2024"
+      },
+      {
+        "name": "Surveillant de baignade — Diplôme Sapeur-Pompier",
+        "year": "2024"
+      }
+    ],
+    "interestsTitle": "Centres d'intérêt",
+    "interests": [
+      "Water-polo — 12 ans de compétition, capitaine d'équipe, 3× Champion Île-de-France",
+      "Surf & Natation",
+      "Podcasts Business",
+      "Photographie",
+      "Cinéma & Musique live",
+      "Secourisme & prévention"
+    ]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "hook": "Disponible pour une alternance en Risk Management à Bordeaux à partir de septembre 2026. Rythme : 3 semaines / 1 semaine.",
+    "formTitle": "Envoyer un message",
+    "formName": "Nom",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Ouvrir l'email",
+    "formHint": "Le formulaire ouvre votre messagerie avec un brouillon prérempli (aucun serveur requis)."
+  },
+  "common": {
+    "email": "Email"
+  }
+}

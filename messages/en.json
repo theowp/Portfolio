@@ -1,0 +1,235 @@
+{
+  "meta": {
+    "title": "Théo ALASSEUR-DEJOIE — Portfolio",
+    "description": "Risk Management student — MS IMR KEDGE × MSc AI Applied to Business — Eugenia School. Bordeaux."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "parcours": "Background",
+    "competences": "Skills",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "tagline": "Risk management & data / AI."
+  },
+  "home": {
+    "role": "Risk Management Student — Work-study from Sept. 2026 | Bordeaux",
+    "degreeLine": "MS IMR KEDGE Business School × MSc AI Applied to Business — Eugenia School",
+    "rhythm": "Work-study rhythm: 3 weeks company / 1 week school",
+    "location": "Bordeaux (mobility)",
+    "ctaProjects": "View my projects",
+    "ctaContact": "Contact me",
+    "kicker": "Risk management × Data / AI",
+    "typewriterPhrases": [
+      "Risk Manager.",
+      "Data Analyst.",
+      "Firefighter.",
+      "Future work-study in Bordeaux."
+    ],
+    "stats": {
+      "experiences": "Experiences",
+      "formations": "Degrees",
+      "waterpolo": "Years of water polo",
+      "sp": "Volunteer firefighter",
+      "spActive": "Active"
+    },
+    "whyTitle": "Why me?",
+    "pillars": [
+      {
+        "title": "Risk analysis",
+        "subtitle": "Field + academic",
+        "body": "Operational experience (SDIS) and academic training to structure risk assessment and prioritisation."
+      },
+      {
+        "title": "Data & AI for risk",
+        "subtitle": "Measurement & steering",
+        "body": "Skills in data engineering, BI and AI to strengthen data-driven steering and decision support."
+      },
+      {
+        "title": "Proven leadership",
+        "subtitle": "Teams & pressure",
+        "body": "Association roles, competitive sport and emergency response to coordinate and decide under constraint."
+      }
+    ]
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "intro": "Four projects — data, BI, full-stack and AI — supporting decision clarity and risk steering.",
+    "viewDeck": "View deck",
+    "keyFigures": "Key figures"
+  },
+  "projects": {
+    "interpol": {
+      "title": "Interpol Data Scraper",
+      "category": "Data Engineering",
+      "description": "Automated scraping system for public Interpol data. Extraction and structuring of wanted-person records, database storage and interactive visualisation of collected data.",
+      "metrics": [
+        "1,000+ records extracted",
+        "194 countries",
+        "Structured data in SQL database"
+      ]
+    },
+    "carbonBalance": {
+      "title": "Carbon Balance",
+      "category": "Full-Stack Application",
+      "description": "Development of a full-stack carbon accounting application. Micro-services architecture covering scopes 1, 2 and 3. Data cleaning pipeline to standardise energy and logistics inputs.",
+      "metrics": [
+        "-70% analysis time vs traditional Excel",
+        "Scopes 1, 2 & 3",
+        "Real-time dashboard"
+      ]
+    },
+    "brandsistersBi": {
+      "title": "Decision-support solutions — Brandsisters",
+      "category": "Business Intelligence",
+      "description": "BI solution roll-out for Zapa, Tara-Jarmon and Vanessa Bruno. Business needs gathering and translation into technical specifications. Data flow integrity oversight and strategic KPI implementation.",
+      "metrics": ["3 brands", "Strategic KPIs in production"]
+    },
+    "dustAgent": {
+      "title": "AI Agent — DUST",
+      "category": "Artificial Intelligence",
+      "description": "Design and deployment of a conversational AI agent on the DUST platform. Multiple data source integration, automated workflows and prompt fine-tuning for contextual answers.",
+      "metrics": ["24/7 operational AI assistant"]
+    }
+  },
+  "parcoursPage": {
+    "title": "Background",
+    "education": "Education",
+    "experience": "Professional experience"
+  },
+  "education": {
+    "kedge": {
+      "school": "KEDGE Business School",
+      "degree": "MS IMR — Global Risk Management Manager (from Sept. 2026)",
+      "courses": "Courses: Risk mapping, Risk financing, Crisis management, Management / Leadership"
+    },
+    "eugenia": {
+      "school": "Eugenia School",
+      "degree": "MSc AI Applied to Business (2025 — present)",
+      "courses": "Courses: Business Analytics, Data Visualisation, CRM, No-code, Analytical marketing",
+      "tools": "Tools: Python, SQL, Power BI, Hubspot, Dataiku, ChatGPT, Google Analytics, Airtable, Notion, Zapier"
+    },
+    "dauphine": {
+      "school": "Université Paris-Dauphine",
+      "degree": "Bachelor in Organisation Sciences (2021-2025)",
+      "courses": "Strategic analysis, macroeconomics, public speaking, quantitative tools"
+    },
+    "lycee": {
+      "school": "Lycée Descartes — Antony",
+      "degree": "Scientific Baccalaureate, Honours (2018-2021)",
+      "courses": "Specialities: Mathematics, Physics-Chemistry, Engineering sciences"
+    }
+  },
+  "experience": {
+    "brandsisters": {
+      "company": "Brandsisters",
+      "role": "Data Project Manager (Sept. 2025 – Sept. 2026)",
+      "bullets": [
+        "Business needs gathering and translation into technical specifications",
+        "Data flow integrity oversight and strategic KPI implementation",
+        "Website creation, AI agent and chatbot (VibeCoding)"
+      ]
+    },
+    "sdis": {
+      "company": "SDIS 06",
+      "role": "Lifeguard / Volunteer Firefighter (Sept. 2021 — present)",
+      "bullets": [
+        "Risk assessment and prioritisation in real conditions",
+        "Rapid threat identification, decision under uncertainty, emergency management",
+        "Risk communication: mission reporting, inter-service coordination"
+      ]
+    },
+    "louisette": {
+      "company": "Louisette",
+      "role": "Head Bartender / Server (June 2022 – Nov. 2023)",
+      "bullets": ["Logistics, stock management, customer relations"]
+    },
+    "doa": {
+      "company": "Dauphine On Air",
+      "role": "Events Lead (Sept. 2021 — present)",
+      "bullets": [
+        "Project tracking, team coordination, results analysis",
+        "Collaboration with external partners (sponsors, vendors)"
+      ]
+    }
+  },
+  "competencesPage": {
+    "title": "Skills",
+    "intro": "A data / BI / AI foundation for steering and risk management.",
+    "skillBarCaption": "Bars are decorative layout only — not a score.",
+    "skillBarLevels": {
+      "dataBi": 92,
+      "analytics": 86,
+      "nocode": 84,
+      "devIa": 80,
+      "soft": 90
+    },
+    "groups": {
+      "dataBi": "Data & BI",
+      "analytics": "Analytics",
+      "nocode": "No-code & Automation",
+      "devIa": "Dev & AI",
+      "soft": "Soft skills"
+    },
+    "items": {
+      "dataBi": ["Python", "SQL", "Power BI", "Excel", "Dataiku"],
+      "analytics": [
+        "Google Analytics",
+        "Business Analytics",
+        "Data Visualisation"
+      ],
+      "nocode": ["Airtable", "Notion", "Zapier", "Hubspot"],
+      "devIa": ["Cursor", "ChatGPT", "Next.js", "Tailwind CSS"],
+      "soft": [
+        "Leadership",
+        "Crisis management",
+        "Communication",
+        "Team coordination",
+        "Decision under pressure"
+      ]
+    },
+    "certificationsTitle": "Certifications",
+    "certifications": [
+      {
+        "name": "BNSSA — National Aquatic Safety and Rescue Certificate",
+        "year": "2021"
+      },
+      {
+        "name": "PSE1 — First Aid in Team Level 1",
+        "year": "2021"
+      },
+      {
+        "name": "PSE2 — First Aid in Team Level 2",
+        "year": "2024"
+      },
+      {
+        "name": "Pool lifeguard — Firefighter diploma",
+        "year": "2024"
+      }
+    ],
+    "interestsTitle": "Interests",
+    "interests": [
+      "Water polo — 12 years competing, team captain, 3× Île-de-France champion",
+      "Surf & Swimming",
+      "Business podcasts",
+      "Photography",
+      "Cinema & live music",
+      "First aid & prevention"
+    ]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "hook": "Available for a Risk Management work-study in Bordeaux from September 2026. Rhythm: 3 weeks / 1 week.",
+    "formTitle": "Send a message",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Open email draft",
+    "formHint": "The form opens your mail client with a pre-filled draft (no server required)."
+  },
+  "common": {
+    "email": "Email"
+  }
+}
