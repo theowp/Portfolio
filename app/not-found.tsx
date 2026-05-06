@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { withBasePath } from "@/lib/paths";
 
 export default function NotFound() {
   return (
@@ -10,7 +9,7 @@ export default function NotFound() {
         La page demandée n’existe pas ou a été déplacée.
       </p>
       <Link
-        href={withBasePath("/fr")}
+        href="/fr/"
         className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-foreground transition hover:bg-gold hover:text-background"
       >
         Retour à l’accueil (FR)

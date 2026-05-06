@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { motion, LayoutGroup } from "framer-motion";
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
 import { useMessages } from "@/context/MessagesContext";
-import { stripBasePath, swapLocaleInPath, withBasePath } from "@/lib/paths";
+import { stripBasePath, swapLocaleInPath } from "@/lib/paths";
 import { SITE } from "@/lib/site";
 import type { Locale, Messages } from "@/lib/i18n";
 
@@ -53,7 +53,7 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link
-          href={withBasePath(`/${locale}`)}
+          href={`/${locale}/`}
           className="group flex items-center gap-2"
           onClick={() => setOpen(false)}
         >
@@ -67,7 +67,7 @@ export function Navbar() {
         <LayoutGroup id="main-nav">
           <nav className="relative hidden items-center gap-0.5 md:flex">
           {navItems.map((item) => {
-            const href = withBasePath(`/${locale}${item.suffix}`);
+            const href = `/${locale}${item.suffix}/`;
             const norm = stripBasePath(pathname);
             const active =
               item.suffix === ""
@@ -185,7 +185,7 @@ export function Navbar() {
         <div className="border-t border-border bg-background/95 px-4 py-3 backdrop-blur-lg md:hidden">
           <nav className="flex flex-col gap-1">
             {navItems.map((item) => {
-              const href = withBasePath(`/${locale}${item.suffix}`);
+              const href = `/${locale}${item.suffix}/`;
               return (
                 <Link
                   key={item.labelKey}

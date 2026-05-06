@@ -2,8 +2,6 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { withBasePath } from "@/lib/paths";
-
 export default function HomeRedirect() {
   const router = useRouter();
 
@@ -11,7 +9,7 @@ export default function HomeRedirect() {
     const pref =
       typeof window !== "undefined" ? localStorage.getItem("locale") : null;
     const loc = pref === "en" ? "en" : "fr";
-    router.replace(withBasePath(`/${loc}`));
+    router.replace(`/${loc}/`);
   }, [router]);
 
   return (

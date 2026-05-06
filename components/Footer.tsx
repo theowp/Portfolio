@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { useMessages } from "@/context/MessagesContext";
-import { withBasePath } from "@/lib/paths";
 import { SITE } from "@/lib/site";
 
 export function Footer() {
@@ -47,7 +46,7 @@ export function Footer() {
             {SITE.email}
           </a>
           <Link
-            href={withBasePath(`/${locale}/contact`)}
+            href={`/${locale}/contact/`}
             className="inline-flex items-center gap-2 rounded-md bg-accent px-3 py-2 text-sm font-medium text-foreground transition hover:bg-gold hover:text-background"
           >
             {messages.nav.contact}

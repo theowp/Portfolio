@@ -6,7 +6,6 @@ import ParallaxTilt from "react-parallax-tilt";
 import type { ProjectId } from "@/data/projects";
 import { glowClass, type ProjectGlow } from "@/data/projects";
 import { useMessages } from "@/context/MessagesContext";
-import { withBasePath } from "@/lib/paths";
 import { useIsMobile } from "@/hooks/use-is-mobile";
 import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 
@@ -76,7 +75,7 @@ export function ProjectCard({ id, stack, link, glow }: Props) {
           </a>
         ) : (
           <Link
-            href={withBasePath(`/${locale}/contact`)}
+            href={`/${locale}/contact/`}
             className="relative z-[2] mt-4 inline-flex items-center justify-center rounded-md border border-border px-3 py-2 text-sm font-medium text-foreground transition hover:border-gold/40 hover:text-gold"
           >
             {messages.nav.contact}

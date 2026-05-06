@@ -6,7 +6,6 @@ import { HeroScene } from "@/components/effects/HeroScene";
 import { TypewriterHeadline } from "@/components/effects/TypewriterHeadline";
 import { AnimatedStats, type StatItem } from "@/components/effects/AnimatedStats";
 import { getMessages, isLocale, type Locale } from "@/lib/i18n";
-import { withBasePath } from "@/lib/paths";
 import { SITE } from "@/lib/site";
 import { notFound } from "next/navigation";
 
@@ -88,14 +87,14 @@ export default async function HomePage({
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
-                href={withBasePath(`/${locale}/projects`)}
+                href={`/${locale}/projects/`}
                 className="inline-flex items-center gap-2 rounded-md bg-gold px-4 py-2.5 text-sm font-semibold text-background transition hover:bg-gold/90"
               >
                 {h.ctaProjects}
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
-                href={withBasePath(`/${locale}/contact`)}
+                href={`/${locale}/contact/`}
                 className="inline-flex items-center gap-2 rounded-md border border-border px-4 py-2.5 text-sm font-semibold text-foreground transition hover:border-gold/40 hover:text-gold"
               >
                 {h.ctaContact}
