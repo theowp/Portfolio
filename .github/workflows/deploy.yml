@@ -29,10 +29,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Toujours aligner le basePath sur le nom du dépôt GitHub (pages projet : /RepoName/).
+      # Si on ne dépend que d’une variable repo non définie, le build sort /_next/… → 404 sur github.io/Repo/.
       - name: Build static site
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
